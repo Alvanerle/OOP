@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Week4;
 
 import java.util.ArrayList;
 import java.util.List;

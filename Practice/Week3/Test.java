@@ -1,4 +1,4 @@
-package Practice;
+package Practice.Week3;
 
 public class Test {
     static void test(int a[]){
