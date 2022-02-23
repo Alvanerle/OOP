@@ -2,10 +2,13 @@ package Practice.Week5;
 
 public class Task1 {
     public static void main(String[] args) {
-        Student student1 = new Student("Imangali", "Almaty", "IT", 18, 1000000);
-        Staff staff1 = new Staff("Alex", "Mahachkala", "IT", 1000000);
+        Person person1 = new Person("Josh", "NYC");
+        System.out.println(person1.toString());
 
+        Student student1 = new Student("Imangali", "Almaty", "IT", 18, 1000000);
         System.out.println(student1.toString());
+
+        Staff staff1 = new Staff("Alex", "Mahachkala", "IT", 1000000);
         System.out.println(staff1.toString());
     }
 }
