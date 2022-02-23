@@ -1,6 +1,6 @@
 package Practice.Week5;
 
-public class Week5 {
+public class Task1 {
     public static void main(String[] args) {
         Student student1 = new Student("Imangali", "Almaty", "IT", 18, 1000000);
         Staff staff1 = new Staff("Alex", "Mahachkala", "IT", 1000000);
@@ -32,7 +32,7 @@ class Person {
     }
 
     public String toString(){
-        return "Person[name = " + this.name + ", address = " + this.address + "]";
+        return String.format("Person[name = %s, address = %s]", this.name, this.address);
     }
 };
 
@@ -73,7 +73,7 @@ class Student extends Person {
     }
 
     public String toString(){
-        return "Student[" + super.toString() + ", program = " + this.program + ", year = " + this.getYear() + ", fee = " + this.fee + "]";
+        return String.format("Student[%s, program = %s, year = %s, fee = %s]", super.toString(), this.program, this.year, this.fee);
     }
 };
 
@@ -104,6 +104,6 @@ class Staff extends Person {
     }
 
     public String toString(){
-        return "Staff[" + super.toString() + ", school = " + this.school + ", pay = " + this.pay + "]";
+        return String.format("Staff[%s, school = %s, pay = %s]", super.toString(), this.school, this.pay);
     }
 }
