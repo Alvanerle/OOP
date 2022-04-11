@@ -7,7 +7,7 @@ public class Task3 {
 
         MovablePoint mp1 = new MovablePoint(-12.34f, 15.413f, 2f, 10f);
         System.out.println(mp1.toString());
-        
+
         MovablePoint mp2 = mp1.move();
         System.out.println(mp2.toString());
     }

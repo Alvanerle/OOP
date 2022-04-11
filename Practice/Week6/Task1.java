@@ -31,11 +31,11 @@ public class Task1 {
     }
 }
 
-class Dean extends Teacher{
-    public Dean(String name, String address, String phoneNumber) {
-        super(name, address, phoneNumber);
-    }
-}
+//class Dean extends Teacher{
+//    public Dean(String name, String address, String phoneNumber) {
+//        super(name, address, phoneNumber);
+//    }
+//}
 
 final class Teacher extends Person{
     private String phoneNumber;
