@@ -1,8 +1,7 @@
-package Practice.Week12;
+package Practice.Week11;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class Task1 {
